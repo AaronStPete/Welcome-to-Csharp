@@ -25,6 +25,9 @@ namespace Welcome_to_Csharp
             string date = DateTime.Today.ToShortDateString();
             Console.WriteLine($"Today's date is: {date}");
 
+            char firstLetter = 'a';
+            Console.WriteLine($"The first letter of my name starts with an '{firstLetter}'.");            
+
             float stars = 9096;
             Console.WriteLine($"There are {stars} stars in the visible sky.");
 
